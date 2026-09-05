@@ -21,6 +21,17 @@ ssh :- ssh(secured shell) is used for logging into virtual machine from remote d
 
 8. file :- The file command in Linux is used to determine the type of a file. Instead of relying only on the file extension, it inspects the file’s contents and metadata to identify what kind of data it holds.
 
+9. find / -user <user> -group <group> -size <size> 2>/dev/null → search files by owner, group, and size while suppressing errors
+
+10. grep <pattern> <file> → search for a keyword or pattern in a file
+
+11.sort <file> → sort lines in a file
+
+12.uniq -u → print unique lines (those that appear only once)
+
+13.strings <file> → extract printable text from binary files
+
+
 [file filename]:- Prints the file type (e.g., ASCII text, executable, JPEG image).
 
 [file file1 file2 file3]:- Checks each file and reports its type.
