@@ -1,0 +1,115 @@
+AY-1
+
+1.WHAT IS COMPUTER NETWORK IS FIRST THING THAT COMES TO MIND WHEN WE TALK ABOUT NETWORKING RIGHT?
+
+= SO TO ANSWER THIS WE WILL LEARN ABOT NETWORK TO CONNECT WITH DIFFERENT DEVICES,OR PEOPLE IN GENERAL IS CALLED NETWORKING. NOW TO THE POINT
+
+COMPUTER NETWORK= A network is essentially a system of interconnected elements—whether wires, computers, people, or organizations—that communicate or work together. In computing, it means devices linked to share data and resources, while in everyday life it can mean social or professional connection
+
+2.TYPES OF NETWORK 
+
+Type                                          Scope                                                  Example
+LAN (Local Area Network)             Small, localized (home, office)                     Sharing files between PCs in an office 
+WAN (Wide Area Network)              Large, across cities/countries                      The internet itself 
+MAN (Metropolitan Area Network)      City-wide                                           Cable TV distribution 
+Wireless Network (Wi-Fi)             Wireless connections                                Home Wi-Fi router 
+Peer-to-Peer Network                 Devices connect directly                            File sharing between two laptops 
+
+3.CLIENT VS SERVER
+
+CLIENT 
+
+Definition: The end-user’s device or application 
+
+Role: Sends requests to servers and displays results.
+
+Examples: Your browser when you type google.com.
+
+A mobile app fetching data from an online API.
+
+Technologies: HTML, CSS, JavaScript, React, Angular, Vue.
+
+Responsibilities: Render the user interface (UI).
+
+Handle user interactions (clicks, typing).
+
+Perform local logic (form validation, animations).
+
+Request data from servers via APIs.
+
+SERVER
+
+Definition: A remote computer/system that stores data and runs the core logic of applications.
+
+Role: Processes client requests, manages data, and sends back responses.
+
+Examples: A web server hosting Facebook.
+
+A database server storing user accounts.
+
+Technologies: Python, Java, PHP, Node.js, .NET, databases (MySQL, MongoDB).
+
+Responsibilities: Handle authentication & authorization.
+
+Process and store data in databases.
+
+Execute business logic (e.g., calculating prices).
+
+Generate dynamic content for clients.
+
+
+4.INTERNET VS INTRANET
+
+INTERNET:- THE INTERNET IS SOMETHING THAT IS USED WORLD WIDE TO CONNECT OR TO BROWSE 
+> IT IS A PUBICLY ACCESSIBLE
+EXAMPLE:- GOOGLE FACEBOOK ETC
+
+INTRANET:- IT IS A PRIVATE NETWORK RESTRICTED TO AN ORGANIZATION 
+> IT IS PRIVATE
+EXAMPLE:- HR PORTAL ETC
+
+
+5. ROUTER,SWITCH,MODEM,ACESS POINT
+
+ROUTER:-
+
+Purpose: Connects different networks together (e.g., your home network to the internet).
+
+Function: Routes data packets between networks using IP addresses.
+
+Example: The box your ISP gives you that connects your home devices to the internet.
+
+Key Point: Think of it as a traffic director deciding the best path for data.
+
+
+SWITCH:-
+
+Purpose: Connects multiple devices within the same local network (LAN).
+
+Function: Forwards data only to the specific device it’s meant for, using MAC addresses.
+
+Example: Office switch connecting PCs, printers, and servers.
+
+Key Point: Like a post office clerk who delivers letters only to the right desk.
+
+
+MODEM:-
+
+Purpose: Converts signals between your ISP’s line (telephone/cable/fiber) and your home network.
+
+Function: Modulates and demodulates signals (digital ↔ analog).
+
+Example: DSL modem for telephone lines, cable modem for coaxial cable.
+
+Key Point: Acts as a translator between your ISP and your router.
+
+
+ACESS PONT (AP):-
+
+Purpose: Provides wireless connectivity (Wi-Fi) to devices.
+
+Function: Extends a wired network into a wireless one.
+
+Example: Wi-Fi hotspot in a café or your home router’s Wi-Fi feature.
+
+Key Point: Like a wireless doorway into the network.
