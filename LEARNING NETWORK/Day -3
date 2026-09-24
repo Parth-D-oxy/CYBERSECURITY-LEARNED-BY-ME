@@ -1,0 +1,43 @@
+Network Devices
+
+I learned about the main devices that make networks work.
+
+Examples:
+
+Router: the box at home that connects me to the ISP.
+
+Switch: used in labs or offices to connect many PCs.
+
+Modem: connects to the ISP’s technology.
+
+Access Point: lets phones and laptops connect wirelessly.
+
+Server: stores or provides data, like Gmail servers.
+
+Client: the device or app that requests data, like my browser.
+
+MAC Address
+
+A MAC address is a hardware address for a network interface. It looks like A4:5E:60:12:AB:91.
+
+Examples:
+
+Laptop NIC: 00:15:5d:ab:cd:ef
+
+Phone Wi‑Fi: 7C:91:22:45:CD:10
+
+PC Ethernet: 38:F9:D3:67:AA:21
+
+Practice:
+
+bash
+
+ip link
+Difference from IP:
+
+IP shows where the device is on the network.
+
+MAC shows which physical interface should get the data.
+
+
+
