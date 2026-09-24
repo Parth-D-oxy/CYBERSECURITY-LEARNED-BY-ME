@@ -1,0 +1,57 @@
+Networking Commands
+
+I tried some basic commands:
+
+ip a → shows IP addresses.
+
+ping google.com → checks if Google is reachable.
+
+traceroute google.com → shows the path data takes.
+
+nslookup google.com → shows the IP behind the domain.
+
+curl https://example.com → fetches a webpage from the terminal.
+
+Extra practice:
+
+bash
+
+ip route
+
+ping 1.1.1.1
+
+traceroute yahoo.com
+
+nslookup microsoft.com
+
+curl https://jsonplaceholder.typicode.com/posts/1
+
+
+Putting it together
+
+I combined the commands to see how they work together.
+Steps:
+
+Use nslookup to get the IP of a domain.
+
+Use ping to check if it’s reachable.
+
+Use traceroute to see the path.
+
+Use curl to talk to the server.
+
+Practice:
+
+bash
+nslookup google.com
+ping 142.250.x.x
+traceroute 142.250.x.x
+curl https://google.com
+Another example:
+
+bash
+nslookup github.com
+ping github.com
+traceroute github.com
+curl https://api.github.com
+
