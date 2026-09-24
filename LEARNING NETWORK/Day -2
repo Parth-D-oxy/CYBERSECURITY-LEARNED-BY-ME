@@ -1,0 +1,43 @@
+What is a Network
+
+Today I learned that a network is simply a group of devices connected so they can share data.
+
+Examples:
+
+Sending a file from my laptop to my phone over Wi‑Fi.
+
+Printing from different computers using one shared printer.
+
+Playing an online game where my PC talks to a game server.
+
+Key terms:
+
+LAN: a small local network like at home or in a lab.
+
+WAN: a bigger network that covers large areas, like the internet.
+
+ISP: the company that gives me internet access.
+
+
+IP Address
+
+
+An IP address is like a house address for a device. It tells the network where to deliver data.
+
+
+Examples:
+
+My router might be 192.168.1.1.
+
+My laptop could be 192.168.1.10.
+
+My phone might be 192.168.1.11.
+
+My public IP could be something like 103.45.67.89.
+
+Practice:
+
+bash
+
+ip addr
+ping 8.8.8.8
